@@ -12,3 +12,29 @@ A simple, local blockchain implementation created for educational purposes to de
 ## Roadmap
 
 The next major step for this project is to evolve it into a distributed blockchain. The plan is to add networking capabilities using **Boost.Asio** to allow nodes to communicate and maintain a decentralized ledger.
+
+## How to Build
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ishnbl/lib_coin.git
+    cd mybtc
+    ```
+
+2.  **Create a build directory:**
+    ```bash
+    mkdir build
+    cd build
+    ```
+
+3.  **Run CMake and build:**
+    ```bash
+    cmake ..
+    make
+    ```
+
+4.  **Run the executable:**
+    The executable, named `mybtc`, will be located in the `build` directory.
+    ```bash
+    ./mybtc
+    ```
